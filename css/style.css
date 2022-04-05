@@ -16,8 +16,6 @@ nav{
 	background-size: cover;
 	background-position: center;
 	padding-top: 30px;
-
-
 }
 
 .main h4{
@@ -123,6 +121,7 @@ nav{
 	color: #fff;
 	background-color: blue;
 	padding: 5px 10px;
+
 }
 
 .smaller p{
@@ -132,13 +131,31 @@ nav{
 
 .heads{
 	position: relative;
+	overflow: hidden;
+	margin-bottom: 3px;
+
+	
 }
+
+.heads img{
+	opacity: 0.8;
+	transition: all 1s;
+}
+
+.heads img:hover{
+	cursor: pointer;
+	transform: scale(1.02);
+
+}
+
 
 .smaller{
 	position: absolute;
 	top: 60%;
 	left: 15px;
 }
+
+
 
 
 

@@ -119,7 +119,7 @@ nav{
 .smaller h4{
 	display: inline-block;
 	color: #fff;
-	background-color: blue;
+	background-color: #243c4b;
 	padding: 5px 10px;
 
 }
@@ -154,6 +154,42 @@ nav{
 	top: 60%;
 	left: 15px;
 }
+
+.products{
+	width: 350px;
+	padding: 50px;
+	margin: 50px;
+
+}
+
+.products a{
+	text-decoration: none;
+	color: #000;
+}
+
+.productlists{
+	/*height: 500px;*/
+	background-color: #243c4b;
+}
+
+.productlists ul{
+	width: 400px;
+	padding: 50px;
+}
+
+
+.productlists ul li:nth-of-type(odd){
+	color: #facd3e;
+	background-color: #68271e;
+
+}
+
+.productlists ul li:nth-of-type(even){
+	color: tomato;
+	background-color: #252c59;
+}
+
+
 
 
 

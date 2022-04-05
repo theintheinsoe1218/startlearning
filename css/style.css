@@ -28,7 +28,6 @@ nav{
 }
 
 .main h2{
-	background-color: darkred;
 	width: 480px;
 	height: 130px;
 	color: #fff;
@@ -45,7 +44,6 @@ nav{
 	width: 400px;
 	color: #d5d0e0;
 	font-size: 18px;
-	/*background-color: darkred;*/
 	padding:20px;
 }
 
@@ -120,6 +118,27 @@ nav{
 	font-size: 18px;
 }
 
+.smaller h4{
+	display: inline-block;
+	color: #fff;
+	background-color: blue;
+	padding: 5px 10px;
+}
+
+.smaller p{
+	color: #fff;
+
+}
+
+.heads{
+	position: relative;
+}
+
+.smaller{
+	position: absolute;
+	top: 60%;
+	left: 15px;
+}
 
 
 

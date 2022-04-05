@@ -1,5 +1,4 @@
 body{
-	background-color: #243c4b;
 	overflow-x: hidden;
     
 }
@@ -107,9 +106,6 @@ nav{
 	padding: 5px 10px;
 	transform: rotate(3deg);
 	margin-bottom: 30px;
-
-
-
 }
 
 .cins p{
@@ -156,7 +152,7 @@ nav{
 }
 
 .products{
-	width: 350px;
+	width: 400px;
 	padding: 50px;
 	margin: 50px;
 
@@ -168,7 +164,6 @@ nav{
 }
 
 .productlists{
-	/*height: 500px;*/
 	background-color: #243c4b;
 }
 
@@ -187,6 +182,28 @@ nav{
 .productlists ul li:nth-of-type(even){
 	color: tomato;
 	background-color: #252c59;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0;
+}
+
+footer ul li{
+	margin-bottom: 8px;
+}
+
+footer h2{
+	
+	font-weight: bolder;
+	margin-bottom: 30px;
+	background-color: red;
+	background-image: linear-gradient(#2013af, #59d5e0);
+	background-size: 100%;
+  	background-repeat: repeat;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	
 }
 
 
